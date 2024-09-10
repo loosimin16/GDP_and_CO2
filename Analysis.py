@@ -23,7 +23,7 @@ chart = (
     )
     .add(so.Line(), so.PolyFit(order=2))
     .add(so.Dot())
-    .label(title="GDP and Infant Mortality")
+    .label(title="GDP against Infant Mortality")
 ).show()
 
 chart
